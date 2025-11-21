@@ -41,7 +41,7 @@ Isso sugere a necessidade de técnicas de balanceamento (como SMOTE ou class_wei
 ### Distribuição das Features (Boxplot)
 A visualização individualizada permitiu observar a separação das classes e a presença de outliers, especialmente na variável insulina.
 
-![Boxplot das Features](Exploratory-Data-Analysis-EDA-/BOXPLOT.PNG)
+![Boxplot das Features](BOXPLOT.PNG)
 *(Exemplo de análise: Note a clara separação na mediana da variável 'plas' entre os grupos)*
 
 ### Correlações (Heatmap)
@@ -49,12 +49,12 @@ A matriz de correlação de Pearson indicou baixa multicolinearidade severa (nen
 * Idade e Gravidez (0.54)
 * IMC e Espessura da Pele (0.39)
 
-![Matriz de Correlação](Exploratory-Data-Analysis-EDA-/CORRELAÇÃO.PNG)
+![Matriz de Correlação](CORRELAÇÃO.PNG)
 
 ### Visualização Não-Linear (UMAP)
 Utilizando a redução de dimensionalidade com UMAP (após tratamento de missing values e normalização), foi possível projetar os dados em 2D. Observou-se que, embora haja separação, existe uma zona de sobreposição complexa entre as classes, sugerindo que modelos lineares simples podem não ser suficientes.
 
-![Projeção UMAP](Exploratory-Data-Analysis-EDA-/UMAP.PNG)
+![Projeção UMAP](UMAP.PNG)
 
 ## 🛠️ Tecnologias Utilizadas
 * **Python** (Linguagem principal)
